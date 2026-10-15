@@ -1,0 +1,18 @@
+.redes-contato a {
+    display: inline-block;
+    background-color: #FFD600;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+.redes-contato a {
+    transition: 0.3s;
+}
+
+.redes-contato a:hover {
+    background-color: white;
+    transform: scale(1.05);
+}

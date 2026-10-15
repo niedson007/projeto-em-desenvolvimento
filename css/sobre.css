@@ -1,0 +1,122 @@
+body {
+    display: block;
+    background-image: url("../imagens/tela\ sobre\ pc.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: block;
+    padding: 60px 40px;
+    font-family: 'verdana', sans-serif;
+}
+
+.sobre {
+    max-width: 600px;
+    text-align: left;
+     margin-left: 0;
+    margin-right: auto;
+     border-left: 3px solid #FFD600;
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   
+}
+.biografia {
+    max-width: 550px;
+    margin-top: 60px;
+    margin-left: 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+header .sobre {
+    position: static;
+    flex: 1;
+    min-width: 0;
+    max-width: 500px;
+}
+.missao {
+    max-width: 550px;
+    margin-top: 40px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.missao h2 {
+    color: #FFD600;
+}
+
+.formacao {
+    max-width: 550px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+.formacao h2 {
+    color: #FFD600;
+}
+
+.experiencia {
+    max-width: 550px;
+    margin-top: 40px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.experiencia h2 {
+    color: #FFD600;
+}
+
+
+
+main section {
+    background-color: rgba(255, 217, 0, 0.007);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+@media (max-width: 850px) {
+    body {
+        background-image: url("../imagens/tela\ sobre\ mob.png");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    
+    .biografia {
+    text-align: left;
+    line-height: 1.6;
+   } 
+}
+@media (min-width: 1200px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 30px;
+        width: 65%;
+        box-sizing: border-box;
+        align-items: start;
+    }
+
+    main section {
+       margin: 0;
+    min-width: 0;
+    }
+    main section h2 {
+    margin: 0px 0 20px 0;
+}
+.biografia {
+    padding-top: 0;
+}
+
+.biografia h2 {
+    margin-top: 0;
+}
+}
+

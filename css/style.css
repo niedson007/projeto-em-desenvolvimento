@@ -1,0 +1,136 @@
+    body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, sans-serif;
+    background-image: url("../imagens/tela\ inical\ pc.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}   
+    h1 { 
+    color: #FFD600;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, sans-serif;
+    margin-bottom: 0;
+}
+    h2 {
+    color:#FFD600;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+    header {
+    padding: 40px;
+    text-align: center;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+nav {
+    text-align: right;
+    margin-top: 20px;
+}
+p.subtitulo {
+    font-size: 18px;
+    color: #FFD600;
+    text-align: center;
+    margin-top: 5px;
+}
+h2.slogan {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.botao {
+    background-color: #FFD600;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.apresentacao {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+    
+
+}
+.apresentacao img {
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+    border-radius: 15px;
+    border: 3px solid #FFD600;
+    margin-bottom: 40px;
+    
+}
+.identidade {
+    text-align: left;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.especialidades,
+.modalidades {
+    border: 2px solid #FFD600;
+    border-radius: 15px;
+    padding: 20px;
+}
+.painel-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media (max-width: 850px) {
+    body {
+        background-image: url("../imagens/tela\ inical\ mob.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70% top;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        display: block;
+    }
+
+    .painel-lateral {
+    display: none;
+}
+}
+
+@media (min-width: 851px) {
+    .apresentacao img {
+        width: 250px;
+    }
+}
+
+
