@@ -16,3 +16,250 @@
     background-color: white;
     transform: scale(1.05);
 }
+.formulario-contato {
+    background-color: rgba(10, 10, 10, 0.9);
+    border: 2px solid #FFD600;
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 550px;
+}
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-contato input,
+.formulario-contato select,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1B1B1B;
+    color: white;
+    box-sizing: border-box;
+}
+
+.formulario-contato label {
+    margin-top: 8px;
+}
+.formulario-contato button {
+    background-color: #FFD600;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: white;
+    transform: scale(1.02);
+}
+.informacoes-contato h3 {
+    color: #FFD600;
+}
+.icone-whatsapp {
+    display: inline-block;
+    color: #FFD600;
+    border: 2px solid #FFD600;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.icone-instagram {
+    display: inline-block;
+    color: #FFD600;
+    border: 2px solid #FFD600;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.icone-localizacao {
+    display: inline-block;
+    color: #FFD600;
+    border: 2px solid #FFD600;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.icone-whatsapp,
+.icone-instagram,
+.icone-localizacao {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+.destaques-contato {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #FFD600;
+    padding: 25px;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque h3 {
+    color: #FFD600;
+}
+
+.destaque p {
+    color: white;
+}
+.informacoes-contato h2 {
+    position: relative;
+    padding-left: 22px;
+    color: #FFD600;
+}
+
+.informacoes-contato h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #FFD600;
+    border-radius: 5px;
+}
+.formulario-contato h2 {
+    position: relative;
+    padding-left: 22px;
+    color: #FFD600;
+}
+
+.formulario-contato h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #FFD600;
+    border-radius: 5px;
+}
+
+
+.destaques-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #FFD600;
+    padding: 25px 30px;
+}
+
+.destaque {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.destaque:not(:last-child) {
+    border-right: 3px solid #FFD600;
+}
+
+
+
+@media (min-width: 851px) {
+    .conteudo-contato {
+        display: grid;
+        grid-template-columns: 350px 550px;
+        gap: 30px;
+        align-items: start;
+         margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .conteudo-contato {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .informacoes-contato {
+        width: 100%;
+    }
+
+    .formulario-contato {
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+    }
+
+  .destaques-contato {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .destaque {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .destaque:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid #FFD600;
+    }
+
+      .formulario-contato {
+        background-color: #101010;
+        border: 2px solid #FFD600;
+        border-radius: 15px;
+    }
+body {
+            background-image:
+        linear-gradient(
+            to bottom,
+            rgb(255, 213, 0) 0%,
+            transparent 18%,
+            transparent 72%,
+            rgb(255, 213, 0) 88%,
+            #080808 100%
+        ),
+        url("../imagens/tela\ inical\ mob.png");
+
+    background-size: 100% 100%, auto 1500px;
+background-position: center, 65% 200px;
+    background-repeat: no-repeat;
+    background-color: #080808;
+    }
+
+    .formulario-contato {
+        background-color: #000000;
+        border: 2px solid #FFD600;
+        border-radius: 15px;
+    }
+
+.destaques-contato {
+    display: none;
+}
+.identidade h1 {
+    color: #000000;
+}
+}
+
+
+
+
+
+    
