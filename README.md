@@ -21,6 +21,15 @@ Criar uma página web profissional, moderna e responsiva, que apresente o trabal
 - **Contato:** informações para entrar em contato com o profissional.
 - **Pré-cadastro:** registro de pessoas interessadas nos planos de treinamento.
 
+## 📷 Evidências do projeto
+
+![Página inicial](git.hub/print-inicio.png.png)
+
+![Página sobre](git.hub/print-sobre.png.png)
+
+![Página de serviços](git.hub/print-servicos.png.png)
+
+![Página de contato](git.hub/print-contato.png.png)
 ## 🎨 Identidade visual
 
 O projeto utiliza uma identidade visual baseada principalmente nas cores preto e amarelo, buscando transmitir profissionalismo, modernidade e destaque para as informações.
@@ -39,12 +48,6 @@ Neste projeto, fui responsável por:
 - Organizar os conteúdos e elementos visuais.
 - Construir as páginas de apresentação, serviços e contato.
 
-## 📷 Evidências do projeto
-
-As imagens abaixo serão adicionadas para demonstrar o resultado visual das páginas desenvolvidas.
-
-*Em breve: capturas de tela da página inicial, sobre, serviços e contato.*
-
 ## 📚 Aprendizados
 
 Durante o desenvolvimento, pratiquei conceitos de HTML5, CSS3, organização de arquivos, estruturação de páginas, navegação entre conteúdos e responsividade.
@@ -56,8 +59,6 @@ O projeto também contribuiu para desenvolver minha capacidade de transformar um
 - Continuar aprimorando a responsividade.
 - Melhorar a organização e a apresentação do código.
 - Evoluir as funcionalidades do projeto conforme os estudos.
-- complementar com JavaScript
-  
 
 ## 🔗 Acesso ao projeto
 
