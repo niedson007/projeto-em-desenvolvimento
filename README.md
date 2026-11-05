@@ -65,7 +65,11 @@ O projeto também contribuiu para desenvolver minha capacidade de transformar um
 [Repositório no GitHub](https://github.com/niedson007/projeto-em-desenvolvimento)
 
 ---
+## 📫 Contato
 
+- **GitHub:** [@niedson007](https://github.com/niedson007)
+- **LinkedIn:** [Niedson Samuel](https://www.linkedin.com/in/niedson-samuel-250990431/)
+
+---
 Desenvolvido por **Niedson Samuel**.
-
 *Projeto em desenvolvimento — aprendizado contínuo em Desenvolvimento Web.*
