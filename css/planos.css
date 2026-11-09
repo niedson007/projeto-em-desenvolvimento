@@ -1,5 +1,6 @@
 
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .pagina-planos {
     min-height: 100vh;
     display: flex;
@@ -15,12 +16,14 @@
     background-attachment: fixed;
 }
 
+/* Organiza o cabeçalho e o menu de navegação. */
 .pagina-planos header {
     position: relative;
     justify-content: flex-end;
     align-items: center;
 }
 
+/* Estiliza a identidade visual e o fundo da página. */
 .pagina-planos .identidade {
     position: absolute;
     left: 50%;
@@ -28,6 +31,7 @@
     text-align: center;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .pagina-planos .conteudo-planos {
     display: block;
     width: min(1180px, calc(100% - 48px));
@@ -38,12 +42,14 @@
 
 
 
+/* Estiliza a tabela e suas células. */
 .intro-planos {
     max-width: 760px;
     margin: 10px auto 65px;
     text-align: center;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .etiqueta {
     display: inline-block;
     color: #FFD600;
@@ -53,6 +59,7 @@
     margin-bottom: 14px;
 }
 
+/* Estiliza a tabela e suas células. */
 .intro-planos h2,
 .duvidas-planos > h2 {
     color: #FFD600;
@@ -60,6 +67,7 @@
     margin: 0 0 15px;
 }
 
+/* Estiliza a tabela e suas células. */
 .intro-planos p,
 .titulo-grupo p {
     color: #d0d0d0;
@@ -69,10 +77,12 @@
 
 
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .grupo-planos {
     margin-bottom: 75px;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .titulo-grupo {
     display: flex;
     align-items: center;
@@ -82,6 +92,7 @@
     padding-bottom: 18px;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .numero-grupo {
     color: #FFD600;
     font-size: 34px;
@@ -89,6 +100,7 @@
     opacity: 0.8;
 }
 
+/* Define a aparência dos textos e títulos. */
 .titulo-grupo h2 {
     color: #FFD600;
     font-size: 28px;
@@ -97,12 +109,14 @@
 
 
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .grade-planos {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 22px;
 }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .card-plano {
     position: relative;
     display: flex;
@@ -120,16 +134,19 @@
                 border-color 0.2s ease;
 }
 
+/* Efeito visual quando o cursor passa sobre o elemento. */
 .card-plano:hover {
     transform: translateY(-5px);
     border-color: #FFD600;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque-plano {
     border: 2px solid #FFD600;
     box-shadow: 0 0 22px rgba(255, 214, 0, 0.10);
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .selo-plano {
     position: absolute;
     top: -13px;
@@ -146,6 +163,7 @@
     letter-spacing: 1px;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .tipo-plano {
     color: #FFD600;
     font-size: 10px;
@@ -153,12 +171,14 @@
     letter-spacing: 1.6px;
 }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .card-topo h3 {
     color: #fff;
     font-size: 25px;
     margin: 12px 0;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .preco {
     display: flex;
     align-items: baseline;
@@ -167,10 +187,12 @@
     color: #FFD600;
 }
 
+/* Estiliza a tabela e suas células. */
 .preco strong {
     font-size: 35px;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .preco span {
     color: #c8c8c8;
     font-size: 14px;
@@ -178,6 +200,7 @@
 
 
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .card-plano ul,
 .beneficios-online ul {
     list-style: none;
@@ -185,6 +208,7 @@
     margin: 25px 0;
 }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .card-plano li,
 .beneficios-online li {
     color: #e0e0e0;
@@ -194,6 +218,7 @@
     position: relative;
 }
 
+/* Elemento decorativo criado pelo CSS, sem precisar adicionar HTML. */
 .card-plano li::before,
 .beneficios-online li::before {
     content: "✓";
@@ -205,6 +230,7 @@
 
 
 
+/* Estiliza botões e links que funcionam como botões. */
 .botao-plano {
     display: block;
     margin-top: auto;
@@ -228,6 +254,7 @@
                 color 0.2s ease;
 }
 
+/* Efeito visual quando o cursor passa sobre o elemento. */
 .botao-plano:hover {
     background: transparent;
     color: #FFD600;
@@ -235,6 +262,7 @@
 
 
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .beneficios-online {
     background: rgba(0, 0, 0, 0.55);
     border-left: 4px solid #FFD600;
@@ -244,17 +272,20 @@
     margin-bottom: 25px;
 }
 
+/* Define a aparência dos textos e títulos. */
 .beneficios-online h3 {
     color: #FFD600;
     margin: 0;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .beneficios-online ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 30px;
 }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .descricao-card {
     color: #d0d0d0;
     line-height: 1.7;
@@ -263,26 +294,31 @@
 
 
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .duvidas-planos {
     max-width: 850px;
     margin: 0 auto;
 }
 
+/* Define a aparência dos textos e títulos. */
 .duvidas-planos > h2 {
     margin-bottom: 28px;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .pergunta {
     padding: 20px 0;
     border-bottom: 1px solid rgba(255, 214, 0, 0.35);
 }
 
+/* Define a aparência dos textos e títulos. */
 .pergunta h3 {
     color: #FFD600;
     margin: 0 0 10px;
     font-size: 18px;
 }
 
+/* Define a aparência dos textos e títulos. */
 .pergunta p {
     color: #dedede;
     line-height: 1.8;
@@ -291,6 +327,7 @@
 
 
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .chamada-final {
     margin-top: 45px;
     padding: 35px 25px;
@@ -302,18 +339,21 @@
     text-align: center;
 }
 
+/* Define a aparência dos textos e títulos. */
 .chamada-final h2 {
     color: #FFD600;
     font-size: 26px;
     margin: 0 0 12px;
 }
 
+/* Define a aparência dos textos e títulos. */
 .chamada-final p {
     color: #ddd;
     line-height: 1.7;
     margin-bottom: 25px;
 }
 
+/* Estiliza botões e links que funcionam como botões. */
 .botao-final {
     width: min(280px, 100%);
     margin: 0 auto;
@@ -322,18 +362,22 @@
 
 
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .pagina-planos .destaques-contato {
     margin-top: auto;
 }
 
 
 
+/* Ajustes de layout para telas menores, como celulares. */
 @media (max-width: 850px) {
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .pagina-planos {
         background-attachment: scroll;
     }
 
+/* Organiza o cabeçalho e o menu de navegação. */
     .pagina-planos header {
         display: flex;
         flex-direction: column;
@@ -342,66 +386,81 @@
         padding: 30px 18px;
     }
 
+/* Estiliza a identidade visual e o fundo da página. */
     .pagina-planos .identidade {
         position: static;
         transform: none;
         text-align: center;
     }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .pagina-planos .conteudo-planos {
         width: min(100% - 32px, 560px);
         padding-top: 15px;
     }
 
+/* Estiliza a tabela e suas células. */
     .intro-planos {
         margin: 10px auto 45px;
     }
 
+/* Estiliza a tabela e suas células. */
     .intro-planos h2 {
         font-size: 30px;
     }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .titulo-grupo {
         align-items: flex-start;
         gap: 12px;
     }
 
+/* Define a aparência dos textos e títulos. */
     .titulo-grupo h2 {
         font-size: 23px;
     }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .numero-grupo {
         font-size: 27px;
     }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
     .grade-planos {
         grid-template-columns: 1fr;
         gap: 24px;
     }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
     .card-plano {
         min-height: 0;
     }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .beneficios-online ul {
         grid-template-columns: 1fr;
     }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .grupo-planos {
         margin-bottom: 55px;
     }
 
+/* Define a aparência dos textos e títulos. */
     .chamada-final h2 {
         font-size: 22px;
     }
 
+/* Estiliza o rodapé e seus blocos de informação. */
     .pagina-planos .destaques-contato {
         display: none;
     }
 }
 
+/* Ajustes de layout para telas maiores, como computadores. */
 @media (min-width: 851px) {
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .pagina-planos {
         min-height: 100vh;
     }
