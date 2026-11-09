@@ -1,3 +1,4 @@
+/* Define a aparência e o posicionamento desse elemento da página. */
 .redes-contato a {
     display: inline-block;
     background-color: #FFD600;
@@ -8,14 +9,17 @@
     font-weight: bold;
     margin: 10px;
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .redes-contato a {
     transition: 0.3s;
 }
 
+/* Efeito visual quando o cursor passa sobre o elemento. */
 .redes-contato a:hover {
     background-color: white;
     transform: scale(1.05);
 }
+/* Estiliza os campos e elementos do formulário. */
 .formulario-contato {
     background-color: rgba(10, 10, 10, 0.9);
     border: 2px solid #FFD600;
@@ -23,12 +27,14 @@
     padding: 25px;
     max-width: 550px;
 }
+/* Estiliza os campos e elementos do formulário. */
 .formulario-contato form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/* Estiliza os campos e elementos do formulário. */
 .formulario-contato input,
 .formulario-contato select,
 .formulario-contato textarea {
@@ -41,9 +47,11 @@
     box-sizing: border-box;
 }
 
+/* Estiliza os campos e elementos do formulário. */
 .formulario-contato label {
     margin-top: 8px;
 }
+/* Estiliza botões e links que funcionam como botões. */
 .formulario-contato button {
     background-color: #FFD600;
     color: black;
@@ -56,13 +64,16 @@
     transition: 0.3s;
 }
 
+/* Efeito visual quando o cursor passa sobre o elemento. */
 .formulario-contato button:hover {
     background-color: white;
     transform: scale(1.02);
 }
+/* Estiliza os campos e elementos do formulário. */
 .informacoes-contato h3 {
     color: #FFD600;
 }
+/* Define a aparência dos textos e títulos. */
 .icone-whatsapp {
     display: inline-block;
     color: #FFD600;
@@ -72,6 +83,7 @@
     margin-right: 10px;
     font-size: 22px;
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .icone-instagram {
     display: inline-block;
     color: #FFD600;
@@ -81,6 +93,7 @@
     margin-right: 10px;
     font-size: 22px;
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .icone-localizacao {
     display: inline-block;
     color: #FFD600;
@@ -90,6 +103,7 @@
     margin-right: 10px;
     font-size: 22px;
 }
+/* Define a aparência dos textos e títulos. */
 .icone-whatsapp,
 .icone-instagram,
 .icone-localizacao {
@@ -98,6 +112,7 @@
     text-align: center;
     vertical-align: middle;
 }
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaques-contato {
     display: flex;
     justify-content: space-around;
@@ -107,23 +122,28 @@
     padding: 25px;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque {
     text-align: center;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque h3 {
     color: #FFD600;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque p {
     color: white;
 }
+/* Estiliza os campos e elementos do formulário. */
 .informacoes-contato h2 {
     position: relative;
     padding-left: 22px;
     color: #FFD600;
 }
 
+/* Elemento decorativo criado pelo CSS, sem precisar adicionar HTML. */
 .informacoes-contato h2::before {
     content: "";
     position: absolute;
@@ -134,12 +154,14 @@
     background-color: #FFD600;
     border-radius: 5px;
 }
+/* Estiliza os campos e elementos do formulário. */
 .formulario-contato h2 {
     position: relative;
     padding-left: 22px;
     color: #FFD600;
 }
 
+/* Elemento decorativo criado pelo CSS, sem precisar adicionar HTML. */
 .formulario-contato h2::before {
     content: "";
     position: absolute;
@@ -152,6 +174,7 @@
 }
 
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaques-contato {
     display: flex;
     justify-content: space-between;
@@ -161,19 +184,23 @@
     padding: 25px 30px;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque {
     flex: 1;
     text-align: center;
     padding: 0 20px;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque:not(:last-child) {
     border-right: 3px solid #FFD600;
 }
 
 
 
+/* Ajustes de layout para telas maiores, como computadores. */
 @media (min-width: 851px) {
+/* Define a aparência e o posicionamento desse elemento da página. */
     .conteudo-contato {
         display: grid;
         grid-template-columns: 350px 550px;
@@ -184,7 +211,9 @@
 }
 
 
+/* Ajustes de layout para telas menores, como celulares. */
 @media (max-width: 850px) {
+/* Define a aparência e o posicionamento desse elemento da página. */
     .conteudo-contato {
         display: flex;
         flex-direction: column;
@@ -192,16 +221,19 @@
         padding: 20px;
     }
 
+/* Estiliza os campos e elementos do formulário. */
     .informacoes-contato {
         width: 100%;
     }
 
+/* Estiliza os campos e elementos do formulário. */
     .formulario-contato {
         width: 100%;
         max-width: none;
         box-sizing: border-box;
     }
 
+/* Estiliza o rodapé e seus blocos de informação. */
   .destaques-contato {
         display: flex;
         flex-direction: column;
@@ -209,6 +241,7 @@
         padding: 20px;
     }
 
+/* Estiliza o rodapé e seus blocos de informação. */
     .destaque {
         width: 100%;
         box-sizing: border-box;
@@ -216,16 +249,19 @@
         text-align: center;
     }
 
+/* Estiliza o rodapé e seus blocos de informação. */
     .destaque:not(:last-child) {
         border-right: none;
         border-bottom: 1px solid #FFD600;
     }
 
+/* Estiliza os campos e elementos do formulário. */
       .formulario-contato {
         background-color: #101010;
         border: 2px solid #FFD600;
         border-radius: 15px;
     }
+/* Define a aparência geral da página, como fundo e cores. */
 body {
             background-image:
         linear-gradient(
@@ -244,15 +280,18 @@ background-position: center, 65% 200px;
     background-color: #080808;
     }
 
+/* Estiliza os campos e elementos do formulário. */
     .formulario-contato {
         background-color: #000000;
         border: 2px solid #FFD600;
         border-radius: 15px;
     }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaques-contato {
     display: none;
 }
+/* Define a aparência dos textos e títulos. */
 .identidade h1 {
     color: #000000;
 }
