@@ -1,3 +1,4 @@
+/* Define a aparência geral da página, como fundo e cores. */
     body {
     background-color: black;
     color: white;
@@ -7,6 +8,7 @@
     background-position: center top;
     background-repeat: no-repeat;
 }   
+/* Define a aparência dos textos e títulos. */
     h1 { 
     color: #FFD600;
     text-align: center;
@@ -14,16 +16,19 @@
     font-family:Impact, sans-serif;
     margin-bottom: 0;
 }
+/* Define a aparência dos textos e títulos. */
     h2 {
     color:#FFD600;
 
 }
+/* Organiza o cabeçalho e o menu de navegação. */
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
 
 }
+/* Organiza o cabeçalho e o menu de navegação. */
     header {
     padding: 40px;
     text-align: center;
@@ -32,21 +37,25 @@ nav a {
     align-items: center;
     gap: 20px;
 }
+/* Organiza o cabeçalho e o menu de navegação. */
 nav {
     text-align: right;
     margin-top: 20px;
 }
+/* Define a aparência dos textos e títulos. */
 p.subtitulo {
     font-size: 18px;
     color: #FFD600;
     text-align: center;
     margin-top: 5px;
 }
+/* Define a aparência dos textos e títulos. */
 h2.slogan {
     font-size: 32px;
     text-align: center;
     font-weight: bold;
 }
+/* Estiliza botões e links que funcionam como botões. */
 .botao {
     background-color: #FFD600;
     color: black;
@@ -57,6 +66,7 @@ h2.slogan {
     display: inline-block;
     
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .apresentacao {
     text-align: center;
     max-width: 900px;
@@ -65,6 +75,7 @@ h2.slogan {
     
 
 }
+/* Controla o tamanho, o encaixe e a aparência das imagens ou vídeos. */
 .apresentacao img {
     max-width: 100%;
     height: auto;
@@ -74,22 +85,26 @@ h2.slogan {
     margin-bottom: 40px;
     
 }
+/* Estiliza a identidade visual e o fundo da página. */
 .identidade {
     text-align: left;
 }
 
+/* Organiza a área principal do conteúdo da página. */
 main {
     display: flex;
     align-items: center;
     padding: 0 30px;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .especialidades,
 .modalidades {
     border: 2px solid #FFD600;
     border-radius: 15px;
     padding: 20px;
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .painel-lateral {
     display: flex;
     flex-direction: column;
@@ -98,6 +113,7 @@ main {
 
 
 
+/* Estiliza o rodapé e seus blocos de informação. */
 /* RODAPÉ PADRÃO */
 .destaques-contato {
     display: flex;
@@ -109,25 +125,31 @@ main {
     padding: 25px 30px;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque {
     flex: 1;
     text-align: center;
     padding: 0 20px;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque:not(:last-child) {
     border-right: 2px solid #FFD600;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque h3 {
     color: #FFD600;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaque p {
     color: white;
 }
 
+/* Ajustes de layout para telas menores, como celulares. */
 @media (max-width: 850px) {
+/* Define a aparência geral da página, como fundo e cores. */
     body {
         background-image: url("../imagens/tela\ inical\ mob.png");
         background-size: cover;
@@ -135,27 +157,33 @@ main {
         background-position: 70% top;
     }
 
+/* Organiza o cabeçalho e o menu de navegação. */
     header {
         flex-direction: column;
     }
 
+/* Organiza o cabeçalho e o menu de navegação. */
     nav {
         text-align: center;
     }
 
+/* Organiza o cabeçalho e o menu de navegação. */
     nav a {
         display: inline-block;
         margin: 5px 8px;
     }
 
+/* Organiza a área principal do conteúdo da página. */
     main {
         display: block;
     }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
     .painel-lateral {
     display: none;
 }
 
+/* Estiliza o rodapé e seus blocos de informação. */
 .destaques-contato {
         display: none;
     }
@@ -163,21 +191,26 @@ main {
 
 }
 
+/* Ajustes de layout para telas maiores, como computadores. */
 @media (min-width: 851px) {
+/* Define a aparência geral da página, como fundo e cores. */
     body {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
 
+/* Organiza a área principal do conteúdo da página. */
     main {
         flex: 1;
     }
 
+/* Estiliza o rodapé e seus blocos de informação. */
     .destaques-contato {
         margin-top: auto;
     }
 
+/* Controla o tamanho, o encaixe e a aparência das imagens ou vídeos. */
     .apresentacao img {
         width: 250px;
     }
