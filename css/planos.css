@@ -1,0 +1,409 @@
+
+
+.pagina-planos {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(
+        135deg,
+        #080808 0%,
+        #242018 52%,
+        #080808 100%
+    );
+
+    background-attachment: fixed;
+}
+
+.pagina-planos header {
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagina-planos .identidade {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.pagina-planos .conteudo-planos {
+    display: block;
+    width: min(1180px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 30px 0 70px;
+    flex: 1;
+}
+
+
+
+.intro-planos {
+    max-width: 760px;
+    margin: 10px auto 65px;
+    text-align: center;
+}
+
+.etiqueta {
+    display: inline-block;
+    color: #FFD600;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+.intro-planos h2,
+.duvidas-planos > h2 {
+    color: #FFD600;
+    font-size: clamp(28px, 4vw, 42px);
+    margin: 0 0 15px;
+}
+
+.intro-planos p,
+.titulo-grupo p {
+    color: #d0d0d0;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+
+.grupo-planos {
+    margin-bottom: 75px;
+}
+
+.titulo-grupo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid rgba(255, 214, 0, 0.35);
+    padding-bottom: 18px;
+}
+
+.numero-grupo {
+    color: #FFD600;
+    font-size: 34px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.titulo-grupo h2 {
+    color: #FFD600;
+    font-size: 28px;
+    margin: 0 0 7px;
+}
+
+
+
+.grade-planos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.card-plano {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(12, 12, 12, 0.94);
+    border: 1px solid rgba(255, 214, 0, 0.65);
+    border-radius: 16px;
+
+    padding: 28px 24px 24px;
+    min-height: 340px;
+    box-sizing: border-box;
+
+    transition: transform 0.2s ease,
+                border-color 0.2s ease;
+}
+
+.card-plano:hover {
+    transform: translateY(-5px);
+    border-color: #FFD600;
+}
+
+.destaque-plano {
+    border: 2px solid #FFD600;
+    box-shadow: 0 0 22px rgba(255, 214, 0, 0.10);
+}
+
+.selo-plano {
+    position: absolute;
+    top: -13px;
+    right: 18px;
+
+    background: #FFD600;
+    color: #080808;
+
+    border-radius: 20px;
+    padding: 6px 12px;
+
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.tipo-plano {
+    color: #FFD600;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+}
+
+.card-topo h3 {
+    color: #fff;
+    font-size: 25px;
+    margin: 12px 0;
+}
+
+.preco {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    margin: 0;
+    color: #FFD600;
+}
+
+.preco strong {
+    font-size: 35px;
+}
+
+.preco span {
+    color: #c8c8c8;
+    font-size: 14px;
+}
+
+
+
+.card-plano ul,
+.beneficios-online ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.card-plano li,
+.beneficios-online li {
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin-bottom: 13px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.card-plano li::before,
+.beneficios-online li::before {
+    content: "✓";
+    color: #FFD600;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+
+
+.botao-plano {
+    display: block;
+    margin-top: auto;
+
+    padding: 14px 12px;
+
+    border: 2px solid #FFD600;
+    border-radius: 8px;
+
+    background: #FFD600;
+    color: #080808;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+
+    transition: background 0.2s ease,
+                color 0.2s ease;
+}
+
+.botao-plano:hover {
+    background: transparent;
+    color: #FFD600;
+}
+
+
+
+.beneficios-online {
+    background: rgba(0, 0, 0, 0.55);
+    border-left: 4px solid #FFD600;
+    border-radius: 10px;
+
+    padding: 20px 25px 8px;
+    margin-bottom: 25px;
+}
+
+.beneficios-online h3 {
+    color: #FFD600;
+    margin: 0;
+}
+
+.beneficios-online ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 30px;
+}
+
+.descricao-card {
+    color: #d0d0d0;
+    line-height: 1.7;
+    margin: 25px 0;
+}
+
+
+
+.duvidas-planos {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.duvidas-planos > h2 {
+    margin-bottom: 28px;
+}
+
+.pergunta {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 214, 0, 0.35);
+}
+
+.pergunta h3 {
+    color: #FFD600;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.pergunta p {
+    color: #dedede;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+
+.chamada-final {
+    margin-top: 45px;
+    padding: 35px 25px;
+
+    border: 1px solid #FFD600;
+    border-radius: 15px;
+
+    background: rgba(0, 0, 0, 0.72);
+    text-align: center;
+}
+
+.chamada-final h2 {
+    color: #FFD600;
+    font-size: 26px;
+    margin: 0 0 12px;
+}
+
+.chamada-final p {
+    color: #ddd;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.botao-final {
+    width: min(280px, 100%);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+.pagina-planos .destaques-contato {
+    margin-top: auto;
+}
+
+
+
+@media (max-width: 850px) {
+
+    .pagina-planos {
+        background-attachment: scroll;
+    }
+
+    .pagina-planos header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 30px 18px;
+    }
+
+    .pagina-planos .identidade {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .pagina-planos .conteudo-planos {
+        width: min(100% - 32px, 560px);
+        padding-top: 15px;
+    }
+
+    .intro-planos {
+        margin: 10px auto 45px;
+    }
+
+    .intro-planos h2 {
+        font-size: 30px;
+    }
+
+    .titulo-grupo {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .titulo-grupo h2 {
+        font-size: 23px;
+    }
+
+    .numero-grupo {
+        font-size: 27px;
+    }
+
+    .grade-planos {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .card-plano {
+        min-height: 0;
+    }
+
+    .beneficios-online ul {
+        grid-template-columns: 1fr;
+    }
+
+    .grupo-planos {
+        margin-bottom: 55px;
+    }
+
+    .chamada-final h2 {
+        font-size: 22px;
+    }
+
+    .pagina-planos .destaques-contato {
+        display: none;
+    }
+}
+
+@media (min-width: 851px) {
+
+    .pagina-planos {
+        min-height: 100vh;
+    }
+
+}

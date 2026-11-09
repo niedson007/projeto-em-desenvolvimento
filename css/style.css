@@ -97,6 +97,36 @@ main {
 }
 
 
+
+/* RODAPÉ PADRÃO */
+.destaques-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #FFD600;
+    padding: 25px 30px;
+}
+
+.destaque {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.destaque:not(:last-child) {
+    border-right: 2px solid #FFD600;
+}
+
+.destaque h3 {
+    color: #FFD600;
+}
+
+.destaque p {
+    color: white;
+}
+
 @media (max-width: 850px) {
     body {
         background-image: url("../imagens/tela\ inical\ mob.png");
@@ -125,12 +155,31 @@ main {
     .painel-lateral {
     display: none;
 }
+
+.destaques-contato {
+        display: none;
+    }
+
+
 }
 
 @media (min-width: 851px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    .destaques-contato {
+        margin-top: auto;
+    }
+
     .apresentacao img {
         width: 250px;
     }
 }
-
 
