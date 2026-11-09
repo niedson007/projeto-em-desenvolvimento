@@ -1,3 +1,4 @@
+/* Define a aparência geral da página, como fundo e cores. */
 body {
     display: block;
     background-image: url("../imagens/tela\ sobre\ pc.png");
@@ -6,12 +7,14 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Organiza a área principal do conteúdo da página. */
 main {
     display: block;
     padding: 60px 40px;
     font-family: 'verdana', sans-serif;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .sobre {
     max-width: 600px;
     text-align: left;
@@ -23,6 +26,7 @@ main {
     padding-bottom: 1px;
    
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .biografia {
     max-width: 550px;
     margin-top: 60px;
@@ -30,12 +34,14 @@ main {
     line-height: 1.8;
     text-align: justify;
 }
+/* Organiza o cabeçalho e o menu de navegação. */
 header .sobre {
     position: static;
     flex: 1;
     min-width: 0;
     max-width: 500px;
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .missao {
     max-width: 550px;
     margin-top: 40px;
@@ -43,20 +49,24 @@ header .sobre {
     text-align: left;
 }
 
+/* Define a aparência dos textos e títulos. */
 .missao h2 {
     color: #FFD600;
 }
 
+/* Estiliza os campos e elementos do formulário. */
 .formacao {
     max-width: 550px;
     margin-top: 40px;
     line-height: 1.8;
 }
 
+/* Estiliza os campos e elementos do formulário. */
 .formacao h2 {
     color: #FFD600;
 }
 
+/* Define a aparência e o posicionamento desse elemento da página. */
 .experiencia {
     max-width: 550px;
     margin-top: 40px;
@@ -64,12 +74,14 @@ header .sobre {
     text-align: left;
 }
 
+/* Define a aparência dos textos e títulos. */
 .experiencia h2 {
     color: #FFD600;
 }
 
 
 
+/* Organiza a área principal do conteúdo da página. */
 main section {
     background-color: rgba(255, 217, 0, 0.007);
     padding: 15px;
@@ -80,7 +92,9 @@ main section {
 
 
 
+/* Ajustes de layout para telas menores, como celulares. */
 @media (max-width: 850px) {
+/* Define a aparência geral da página, como fundo e cores. */
     body {
         background-image: url("../imagens/tela\ sobre\ mob.png");
         background-size: cover;
@@ -88,12 +102,15 @@ main section {
         background-repeat: no-repeat;
     }
     
+/* Define a aparência e o posicionamento desse elemento da página. */
     .biografia {
     text-align: left;
     line-height: 1.6;
    } 
 }
+/* Ajustes de layout para telas maiores, como computadores. */
 @media (min-width: 1200px) {
+/* Organiza a área principal do conteúdo da página. */
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -104,17 +121,21 @@ main section {
         align-items: start;
     }
 
+/* Organiza a área principal do conteúdo da página. */
     main section {
        margin: 0;
     min-width: 0;
     }
+/* Organiza a área principal do conteúdo da página. */
     main section h2 {
     margin: 0px 0 20px 0;
 }
+/* Define a aparência e o posicionamento desse elemento da página. */
 .biografia {
     padding-top: 0;
 }
 
+/* Define a aparência dos textos e títulos. */
 .biografia h2 {
     margin-top: 0;
 }
