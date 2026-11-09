@@ -1,3 +1,4 @@
+/* Define a aparência geral da página, como fundo e cores. */
 body {
     background-image: linear-gradient(
         1111deg,
@@ -7,17 +8,20 @@ body {
     );
     background-color: #121212;
 }
+/* Organiza o cabeçalho e o menu de navegação. */
 header {
     position: relative;
     justify-content: flex-end;
 }
 
+/* Estiliza a identidade visual e o fundo da página. */
 .identidade {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
 }
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .cartao-servico {
     background-color: #111111;
     border: 2px solid #FFD600;
@@ -27,19 +31,23 @@ header {
     margin-top: 30px;
 }
 
+/* Controla o tamanho, o encaixe e a aparência das imagens ou vídeos. */
 .cartao-servico video {
     width: 100%;
     border-radius: 10px;
 }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
 .cartao-servico h3 {
     color: #FFD600;
 }
+/* Organiza a área principal do conteúdo da página. */
 main {
     display: block;
     padding: 40px 30px;
 }
 
+/* Controla o tamanho, o encaixe e a aparência das imagens ou vídeos. */
 .cartao-servico img {
     width: 100%;
     height: 725px;
@@ -48,7 +56,9 @@ main {
 }
 
 
+/* Ajustes de layout para telas maiores, como computadores. */
 @media (min-width: 851px) {
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
     .galeria-servicos {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -56,13 +66,16 @@ main {
         width: 100%;
     }
 
+/* Organiza e estiliza os cartões ou a grade de conteúdo. */
     .cartao-servico {
         width: 100%;
         max-width: none;
         box-sizing: border-box;
     }
 }
+/* Ajustes de layout para telas menores, como celulares. */
 @media (max-width: 850px) {
+/* Organiza o cabeçalho e o menu de navegação. */
     header {
         display: flex;
         flex-direction: column;
@@ -70,15 +83,18 @@ main {
         gap: 20px;
     }
 
+/* Estiliza a identidade visual e o fundo da página. */
     .identidade {
         position: static;
         transform: none;
         text-align: center;
     }
 
+/* Organiza o cabeçalho e o menu de navegação. */
     nav {
         text-align: center;
     }
+/* Controla o tamanho, o encaixe e a aparência das imagens ou vídeos. */
      .cartao-servico img {
         width: 100%;
         height: auto;
